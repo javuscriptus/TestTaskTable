@@ -1,0 +1,16 @@
+.cell {
+    %nowrap {
+        white-space: nowrap;
+    }
+
+    .topText {
+        color: black;
+        @extend %nowrap
+    }
+
+    .bottomText {
+        color: gray;
+        font-size: 12px;
+        @extend %nowrap
+    }
+}
